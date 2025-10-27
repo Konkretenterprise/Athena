@@ -69,7 +69,7 @@ jobs:
         run: mv app/build/outputs/apk/playstore/release/app-playstore-release-signed.apk Athena-nightly.apk
 
       - name: Upload the APK
-        uses: actions/upload-artifact@v4.6.0
+        uses: actions/upload-artifact@v5.0.0
         with:
           name: Athena-Nightly
           path: Athena-nightly.apk
